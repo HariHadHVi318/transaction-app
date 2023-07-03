@@ -30,18 +30,6 @@ const Login = () => {
             </Toolbar>
           </AppBar>
           <div>
-            {/* {userType === 'admin' && (
-              <div>
-                <Typography variant="h3">Admin Dashboard</Typography>
-                <TransactionForm />
-              </div>
-            )}
-            {userType === 'normal' && (
-              <div>
-                <Typography variant="h3">Normal User Dashboard</Typography>
-                <TransactionForm />
-              </div>
-            )} */}
             {userType === 'admin' && (
               <div>
                 <Typography variant="h3">Admin Dashboard</Typography>
